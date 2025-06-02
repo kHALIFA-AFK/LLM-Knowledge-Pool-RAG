@@ -69,7 +69,7 @@ command_r = [
 llama3 = [
         {
             "model": "lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF",
-            'api_key': 'any string here is fine',
+            'api_key': '1234',
             'api_type': 'openai',
             'base_url': "http://localhost:1234/v1",
             "cache_seed": random.randint(0, 100000),
